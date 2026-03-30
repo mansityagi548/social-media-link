@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content{
+    height: auto;
+    width: 400px;
+    background-color: hsl(0, 0%, 12%);
+    margin-top: 3rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+#profile{
+    height: 5.5rem;
+    width: 5.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 2rem;
+    margin-bottom: 1.3rem;
+}
+
+#name{
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    font-size: 1.6rem;
+}
+
+#address{
+    color: hsl(75, 94%, 57%);
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+#quote{
+    color: hsl(0, 0%, 100%);
+    font-weight: 200;
+    margin-bottom: 1.3rem;
+    font-size: 1.1rem;
+}
+
+.social-links ul{
+    list-style: none;
+    margin-bottom: 2.5rem;
+}
+
+.social-links li{
+    margin-bottom: 16px;
+}
+
+.social-links a{
+   display: block;              
+  background-color: hsl(0, 0%, 20%);   
+  color: white;               
+  padding: 0.9rem 4rem;              
+  text-decoration: none;      
+  border-radius: 8px;          
+  text-align: center;          
+  font-weight: bold;
+  transition: background-color 0.3s , transform 0.1s;
+}
+
+a:hover{
+    background-color: #7b865a;
+    font-weight: bolder;
+}
+
+
+@media (max-width :600px){
+    .content{
+        width: 95%;
+        height: auto;
+    }
+    #profile{
+        width: 120px;
+        height: 120px;
+    }
+
+    #name{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    #address{
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    #quote{
+        font-size: 1.3rem;
+        font-weight: 200;
+        text-align: center;
+    }
+
+    .social-links a{
+        font-size: 1.3rem;
+    }
+
+}
+
+
+
