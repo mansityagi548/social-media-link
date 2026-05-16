@@ -7,11 +7,8 @@ This project showcases a modern profile card UI where users can view profile inf
 The project focuses on frontend layout design, responsive styling, typography, spacing, and creating polished UI components using pure HTML and CSS.
 
 
-
-
-
 🔗 **Live Website:**  
-![Live Demo]()
+![Live Demo](# https://mansityagi548.github.io/social-media-link/)
 
 
 ## 📸 Preview
